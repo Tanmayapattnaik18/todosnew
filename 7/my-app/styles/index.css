@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  nav {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  td.low-priority {
+    background-color: #fff;
+  }
+  
+  td.medium-priority {
+    background-color: rgb(255, 255, 0);
+  }
+  
+  td.high-priority {
+    background-color: rgb(255, 0, 0);
+  }
+  
+  button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
